@@ -33,7 +33,8 @@
 			"dist/credentials/TimeoffApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/Timeoff/Timeoff.node.js"
+			"dist/nodes/Timeoff/Timeoff.node.js",
+			"dist/nodes/Timeoff/TimeoffTrigger.node.js"
 		]
 	},
 	"devDependencies": {
