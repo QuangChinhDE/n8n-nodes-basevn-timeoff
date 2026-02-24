@@ -48,7 +48,7 @@ export class TimeoffApi implements ICredentialType {
 				'Content-Type': 'application/x-www-form-urlencoded',
 			},
 			body: {
-				access_token: '={{$credentials.accessToken}}',
+				access_token_v2: '={{$credentials.accessToken}}',
 				page: 0,
 			},
 		},

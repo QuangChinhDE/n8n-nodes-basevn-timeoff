@@ -13,7 +13,7 @@ export async function timeoffApiRequest(
 	const url = `https://timeoff.${domain}/extapi/v1${endpoint}`;
 
 	const requestBody = {
-		access_token: accessToken,
+		access_token_v2: accessToken,
 		...body,
 	};
 
